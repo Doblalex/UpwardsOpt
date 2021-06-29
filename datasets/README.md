@@ -14,3 +14,4 @@ Aug. 2016. Source: https://www.kaggle.com/residentmario/iowa-liquor-sales
 https://www.boxofficemojo.com/weekly/by-year/2019/
 - __names__ (n = 1000;m = 135): Yearly number of new-borns for each of the top-1000 US names between
 1880 and 2014. Source: https://www.kaggle.com/kaggle/us-baby-names
+- __stocks__ (n = 500;m = 243): Prices of the S&P 500 stocks from january 2000 to march 2020. Source: Google Finance (using the GOOGLEFINANCE function through Google Sheets)
