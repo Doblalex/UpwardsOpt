@@ -48,10 +48,9 @@ def avg_of_middle_line_second_derivatives(data_dict, rel=False):
 
 def write_ranks(ranks, destination_file):
     destination_file.write('category, rank\n')
-    destination_file.write('\"%s\", %d\n' % ("Baseline", 0))
-    count = 1
+    count = 0
     for rank in ranks:
-        destination_file.write('\"%s\", %d\n' % (rank, count))
+        destination_file.write('%s, %d\n' % (rank, count))
         count += 1
 
 

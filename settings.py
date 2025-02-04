@@ -1,7 +1,7 @@
 min_improvement = 0.01
 
-flatness = 0
-straightness = 1
+flatness = 1
+straightness = 0
 continuity = 0
 
 bottom_line = 1
